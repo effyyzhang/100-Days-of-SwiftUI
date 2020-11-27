@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7313509B256A370D00FEE8C1 /* BrianTrainingGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313509A256A370D00FEE8C1 /* BrianTrainingGameApp.swift */; };
+		7313509D256A370D00FEE8C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313509C256A370D00FEE8C1 /* ContentView.swift */; };
+		7313509F256A370E00FEE8C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7313509E256A370E00FEE8C1 /* Assets.xcassets */; };
+		731350A2256A370E00FEE8C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 731350A1256A370E00FEE8C1 /* Preview Assets.xcassets */; };
+		731350AD256A370E00FEE8C1 /* BrianTrainingGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731350AC256A370E00FEE8C1 /* BrianTrainingGameTests.swift */; };
+		731350B8256A370E00FEE8C1 /* BrianTrainingGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731350B7256A370E00FEE8C1 /* BrianTrainingGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		731350A9256A370E00FEE8C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7313508F256A370D00FEE8C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73135096256A370D00FEE8C1;
+			remoteInfo = BrianTrainingGame;
+		};
+		731350B4256A370E00FEE8C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7313508F256A370D00FEE8C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73135096256A370D00FEE8C1;
+			remoteInfo = BrianTrainingGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		73135097256A370D00FEE8C1 /* BrianTrainingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrianTrainingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7313509A256A370D00FEE8C1 /* BrianTrainingGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrianTrainingGameApp.swift; sourceTree = "<group>"; };
+		7313509C256A370D00FEE8C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7313509E256A370E00FEE8C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		731350A1256A370E00FEE8C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		731350A3256A370E00FEE8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		731350A8256A370E00FEE8C1 /* BrianTrainingGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrianTrainingGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		731350AC256A370E00FEE8C1 /* BrianTrainingGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrianTrainingGameTests.swift; sourceTree = "<group>"; };
+		731350AE256A370E00FEE8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		731350B3256A370E00FEE8C1 /* BrianTrainingGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrianTrainingGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		731350B7256A370E00FEE8C1 /* BrianTrainingGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrianTrainingGameUITests.swift; sourceTree = "<group>"; };
+		731350B9256A370E00FEE8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73135094256A370D00FEE8C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731350A5256A370E00FEE8C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731350B0256A370E00FEE8C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7313508E256A370D00FEE8C1 = {
+			isa = PBXGroup;
+			children = (
+				73135099256A370D00FEE8C1 /* BrianTrainingGame */,
+				731350AB256A370E00FEE8C1 /* BrianTrainingGameTests */,
+				731350B6256A370E00FEE8C1 /* BrianTrainingGameUITests */,
+				73135098256A370D00FEE8C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73135098256A370D00FEE8C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73135097256A370D00FEE8C1 /* BrianTrainingGame.app */,
+				731350A8256A370E00FEE8C1 /* BrianTrainingGameTests.xctest */,
+				731350B3256A370E00FEE8C1 /* BrianTrainingGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73135099256A370D00FEE8C1 /* BrianTrainingGame */ = {
+			isa = PBXGroup;
+			children = (
+				7313509A256A370D00FEE8C1 /* BrianTrainingGameApp.swift */,
+				7313509C256A370D00FEE8C1 /* ContentView.swift */,
+				7313509E256A370E00FEE8C1 /* Assets.xcassets */,
+				731350A3256A370E00FEE8C1 /* Info.plist */,
+				731350A0256A370E00FEE8C1 /* Preview Content */,
+			);
+			path = BrianTrainingGame;
+			sourceTree = "<group>";
+		};
+		731350A0256A370E00FEE8C1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				731350A1256A370E00FEE8C1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		731350AB256A370E00FEE8C1 /* BrianTrainingGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				731350AC256A370E00FEE8C1 /* BrianTrainingGameTests.swift */,
+				731350AE256A370E00FEE8C1 /* Info.plist */,
+			);
+			path = BrianTrainingGameTests;
+			sourceTree = "<group>";
+		};
+		731350B6256A370E00FEE8C1 /* BrianTrainingGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				731350B7256A370E00FEE8C1 /* BrianTrainingGameUITests.swift */,
+				731350B9256A370E00FEE8C1 /* Info.plist */,
+			);
+			path = BrianTrainingGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73135096256A370D00FEE8C1 /* BrianTrainingGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 731350BC256A370E00FEE8C1 /* Build configuration list for PBXNativeTarget "BrianTrainingGame" */;
+			buildPhases = (
+				73135093256A370D00FEE8C1 /* Sources */,
+				73135094256A370D00FEE8C1 /* Frameworks */,
+				73135095256A370D00FEE8C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrianTrainingGame;
+			productName = BrianTrainingGame;
+			productReference = 73135097256A370D00FEE8C1 /* BrianTrainingGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		731350A7256A370E00FEE8C1 /* BrianTrainingGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 731350BF256A370E00FEE8C1 /* Build configuration list for PBXNativeTarget "BrianTrainingGameTests" */;
+			buildPhases = (
+				731350A4256A370E00FEE8C1 /* Sources */,
+				731350A5256A370E00FEE8C1 /* Frameworks */,
+				731350A6256A370E00FEE8C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				731350AA256A370E00FEE8C1 /* PBXTargetDependency */,
+			);
+			name = BrianTrainingGameTests;
+			productName = BrianTrainingGameTests;
+			productReference = 731350A8256A370E00FEE8C1 /* BrianTrainingGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		731350B2256A370E00FEE8C1 /* BrianTrainingGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 731350C2256A370E00FEE8C1 /* Build configuration list for PBXNativeTarget "BrianTrainingGameUITests" */;
+			buildPhases = (
+				731350AF256A370E00FEE8C1 /* Sources */,
+				731350B0256A370E00FEE8C1 /* Frameworks */,
+				731350B1256A370E00FEE8C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				731350B5256A370E00FEE8C1 /* PBXTargetDependency */,
+			);
+			name = BrianTrainingGameUITests;
+			productName = BrianTrainingGameUITests;
+			productReference = 731350B3256A370E00FEE8C1 /* BrianTrainingGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7313508F256A370D00FEE8C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					73135096256A370D00FEE8C1 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					731350A7256A370E00FEE8C1 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 73135096256A370D00FEE8C1;
+					};
+					731350B2256A370E00FEE8C1 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 73135096256A370D00FEE8C1;
+					};
+				};
+			};
+			buildConfigurationList = 73135092256A370D00FEE8C1 /* Build configuration list for PBXProject "BrianTrainingGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7313508E256A370D00FEE8C1;
+			productRefGroup = 73135098256A370D00FEE8C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73135096256A370D00FEE8C1 /* BrianTrainingGame */,
+				731350A7256A370E00FEE8C1 /* BrianTrainingGameTests */,
+				731350B2256A370E00FEE8C1 /* BrianTrainingGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73135095256A370D00FEE8C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731350A2256A370E00FEE8C1 /* Preview Assets.xcassets in Resources */,
+				7313509F256A370E00FEE8C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731350A6256A370E00FEE8C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731350B1256A370E00FEE8C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73135093256A370D00FEE8C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7313509D256A370D00FEE8C1 /* ContentView.swift in Sources */,
+				7313509B256A370D00FEE8C1 /* BrianTrainingGameApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731350A4256A370E00FEE8C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731350AD256A370E00FEE8C1 /* BrianTrainingGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731350AF256A370E00FEE8C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731350B8256A370E00FEE8C1 /* BrianTrainingGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		731350AA256A370E00FEE8C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73135096256A370D00FEE8C1 /* BrianTrainingGame */;
+			targetProxy = 731350A9256A370E00FEE8C1 /* PBXContainerItemProxy */;
+		};
+		731350B5256A370E00FEE8C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73135096256A370D00FEE8C1 /* BrianTrainingGame */;
+			targetProxy = 731350B4256A370E00FEE8C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		731350BA256A370E00FEE8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		731350BB256A370E00FEE8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		731350BD256A370E00FEE8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BrianTrainingGame/Preview Content\"";
+				DEVELOPMENT_TEAM = C7UD9SEVJ6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BrianTrainingGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.effyzhang.BrianTrainingGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		731350BE256A370E00FEE8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BrianTrainingGame/Preview Content\"";
+				DEVELOPMENT_TEAM = C7UD9SEVJ6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BrianTrainingGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.effyzhang.BrianTrainingGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		731350C0256A370E00FEE8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7UD9SEVJ6;
+				INFOPLIST_FILE = BrianTrainingGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.effyzhang.BrianTrainingGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrianTrainingGame.app/BrianTrainingGame";
+			};
+			name = Debug;
+		};
+		731350C1256A370E00FEE8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7UD9SEVJ6;
+				INFOPLIST_FILE = BrianTrainingGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.effyzhang.BrianTrainingGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrianTrainingGame.app/BrianTrainingGame";
+			};
+			name = Release;
+		};
+		731350C3256A370E00FEE8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7UD9SEVJ6;
+				INFOPLIST_FILE = BrianTrainingGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.effyzhang.BrianTrainingGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrianTrainingGame;
+			};
+			name = Debug;
+		};
+		731350C4256A370E00FEE8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7UD9SEVJ6;
+				INFOPLIST_FILE = BrianTrainingGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.effyzhang.BrianTrainingGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrianTrainingGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73135092256A370D00FEE8C1 /* Build configuration list for PBXProject "BrianTrainingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731350BA256A370E00FEE8C1 /* Debug */,
+				731350BB256A370E00FEE8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		731350BC256A370E00FEE8C1 /* Build configuration list for PBXNativeTarget "BrianTrainingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731350BD256A370E00FEE8C1 /* Debug */,
+				731350BE256A370E00FEE8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		731350BF256A370E00FEE8C1 /* Build configuration list for PBXNativeTarget "BrianTrainingGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731350C0256A370E00FEE8C1 /* Debug */,
+				731350C1256A370E00FEE8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		731350C2256A370E00FEE8C1 /* Build configuration list for PBXNativeTarget "BrianTrainingGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731350C3256A370E00FEE8C1 /* Debug */,
+				731350C4256A370E00FEE8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7313508F256A370D00FEE8C1 /* Project object */;
+}
