@@ -28,6 +28,10 @@ struct ContentView: View {
     @State private var showingScore = false
     @State private var scoreTitle = ""
     @State private var score = 0
+    @State private var rotateAmount = 0.0
+    @State private var buttonOpacity = 1.0
+
+    
 
     var body: some View {
         ZStack{
@@ -50,6 +54,12 @@ struct ContentView: View {
                             .renderingMode(.original)
                             .flagStyle()
                     }
+                    .opacity(number == correctAnswer ? 1.0 : buttonOpacity)
+                    .rotation3DEffect(
+                        .degrees(number == correctAnswer ? rotateAmount : 0.0),
+                        axis: /*@START_MENU_TOKEN@*/(x: 0.0, y: 1.0, z: 0.0)/*@END_MENU_TOKEN@*/
+                    )
+                    
                 
                     
             }
@@ -66,14 +76,18 @@ struct ContentView: View {
                     })
         }
 
+
     }
     
     func flagTapped (_ number: Int) {
         if number == correctAnswer {
             scoreTitle = "Correct"
             self.score += 1
+            withAnimation {self.rotateAmount += 360}
+            withAnimation {self.buttonOpacity -= 0.5}
         } else {
             scoreTitle = "Wrong, that is \(countries[number]) 's flag"
+            
         }
         
         showingScore = true
@@ -81,6 +95,7 @@ struct ContentView: View {
     
     func askQuestion() {
         countries.shuffle()
+        buttonOpacity = 1.0
         correctAnswer = Int.random(in: 0...2)
     }
 }
