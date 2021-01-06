@@ -17,8 +17,8 @@ struct SettingsView: View {
         settings.questions.removeAll()
         for _ in 0..<quizCount{
             let tableSize = (level+1)*3
-            let firstNum = Int.random(in: 1..<tableSize)
-            let secondNum = Int.random(in: 1..<tableSize)
+            let firstNum = Int.random(in: 1..<tableSize+1)
+            let secondNum = Int.random(in: 1..<tableSize+1)
             let questionText = String("\(firstNum) × \(secondNum)")
             let correctAnswer = String(firstNum*secondNum)
             let question = Question(text: questionText, answer: correctAnswer)
@@ -65,6 +65,7 @@ struct SettingsView: View {
                         self.settingsToggle.isSettingsDisplayed.toggle()
                     }, label: {
                         Text("Start")
+                            .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                             .frame(maxWidth: .infinity, maxHeight: 56)
                             .foregroundColor(.white)
                             .background(Color.green)
